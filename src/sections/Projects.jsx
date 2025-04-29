@@ -22,7 +22,7 @@ const Projects = () => {
       description: 'Built a Social Media Sentiment Analysis system using real-time tweets fetched via the Twitter API. Cleaned and labeled data with TextBlob, and compared four machine learning models (Logistic Regression, Random Forest, SVM, LSTM) for sentiment classification. Logistic Regression achieved the highest accuracy of 82.67%.',
       tags: ['python','ML'],
       image: senti,
-      // github: 'https://github.com/Shlokyy4/Semantic-Analysis',
+      pdf:'/documents/Sentiment Analysis .pdf',
       demo: '#'
     },
     {

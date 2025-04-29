@@ -25,7 +25,7 @@ const Navbar = ({ menuOpen, closeMenu }) => {
         ))}
          <li className="nav-item">
           <a 
-            href="portfolio/public/documents/Shraddha Ghule.pdf" 
+            href="/documents/Shraddha Ghule.pdf" 
             download="Shraddha_Resume.pdf"
             className="nav-link nav-resume"
             onClick={closeMenu}

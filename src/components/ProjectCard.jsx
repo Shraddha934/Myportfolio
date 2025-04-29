@@ -15,13 +15,24 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         <div className="project-links">
-          <a href="public/documents/Sentiment Analysis .pdf" 
-            download="Sentiment Analysis.pdf"  target="_blank" rel="noreferrer">
+          {project.title === 'Semantic Analysis' ? (
+            <a 
+              href="/documents/Sentiment Analysis .pdf" 
+              download="Sentiment Analysis .pdf" 
+              target="_blank" 
+              rel="noreferrer"
+            >
+              Code PDF
+            </a>
+          ) : (
+            <a 
+              href={project.github} 
+              target="_blank" 
+              rel="noreferrer"
+            >
             Code
-          </a>
-          {/* <a href={project.demo} className="btn" target="_blank" rel="noreferrer">
-            Live Demo
-          </a> */}
+            </a>
+          )}
         </div>
       </div>
     </div>

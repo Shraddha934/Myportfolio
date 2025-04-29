@@ -19,8 +19,8 @@ const Home = () => {
                 View My Work
               </a>
               <a 
-                 href="/documents/resume.pdf" 
-                 download="YourName_Resume.pdf"
+                 href="/documents/Shraddha Ghule.pdf" 
+                 download="Shraddha_Resume.pdf"
                  className="btn btn-outline"
                 >
                 Download Resume
