@@ -1,0 +1,111 @@
+.contact {
+  background: #467d91;
+  background: linear-gradient(227deg, rgba(70, 125, 145, 1) 0%, rgba(62, 184, 113, 1) 68%);
+  padding: 60px 20px; /* Add some breathing space */
+  text-align: center; /* Center text */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; /* Nice spacing between sections */
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contact-info p {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.info-item {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.info-item strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.info-item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.info-item a:hover {
+  color: #ffe600; /* Yellow hover effect */
+}
+
+/* Form related styling if you have a form later */
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #34ace0;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.3);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.btn-icon {
+  margin-left: 8px;
+}
+
+.submit-message {
+  margin-top: 1.5rem;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    padding: 0 10px;
+  }
+}
